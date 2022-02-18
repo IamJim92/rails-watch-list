@@ -1,11 +1,15 @@
-<div class="container">
-  <h1>My Lists</h1>
+<center>
+<div class="container" bt>
+  <div class="header">
+    <h1>My Lists</h1>
+  </div>
+
   <% @lists.each do |list| %>
   <ul>
     <li><%= link_to list.name, list_path(list) %></li>
   </ul>
   <% end %>
-  <%= link_to "Create list", new_list_path %>
-  <%= link_to "View movies", movies_path %>
-
+  <%= link_to "🐱‍👤Create list", new_list_path %>
+  <%= link_to "🤖View movies", movies_path %>
 </div>
+</center>

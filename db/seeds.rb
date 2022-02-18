@@ -57,11 +57,11 @@ end
 # puts "finished"
 
 # List seed
-puts "cleaning lists"
-List.destroy_all
-puts "creating lists"
-List.create(name: "Paul's list")
-List.create(name: "John's list")
-List.create(name: "George's list")
-List.create(name: "Ringo's list")
-puts "finished"
+# puts "cleaning lists"
+# List.destroy_all
+# puts "creating lists"
+# List.create(name: "Paul's list")
+# List.create(name: "John's list")
+# List.create(name: "George's list")
+# List.create(name: "Ringo's list")
+# puts "finished"
